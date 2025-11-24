@@ -1,0 +1,33 @@
+.menu-paginas {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.menu-paginas h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.btn-pagina {
+    display: inline-block;
+    padding: 15px 25px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: 0.3s ease;
+    font-weight: bold;
+}
+
+.btn-pagina:hover {
+    background-color: #3a8f40;
+    transform: scale(1.05);
+}
