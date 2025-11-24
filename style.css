@@ -1,33 +1,65 @@
-.menu-paginas {
-    text-align: center;
-    padding: 40px 20px;
+/* Fondo general */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #8691db, #e1eae2);
+    color: white;
 }
 
-.menu-paginas h2 {
-    font-size: 30px;
-    margin-bottom: 30px;
+
+/* Contenedor del título y menú */
+
+.menu-paginas {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 40px;
+    border-radius: 20px;
 }
+
+
+/* Título */
+
+.menu-paginas h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 4px black;
+}
+
+
+/* Contenedor de botones */
 
 .grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
+    gap: 25px;
 }
+
+
+/* Botones */
 
 .btn-pagina {
     display: inline-block;
-    padding: 15px 25px;
-    background-color: #4CAF50;
+    padding: 15px 30px;
+    background-color: #5776b1;
     color: white;
     text-decoration: none;
-    border-radius: 10px;
-    font-size: 18px;
+    border-radius: 12px;
+    font-size: 20px;
     transition: 0.3s ease;
     font-weight: bold;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
 }
 
+
+/* Hover */
+
 .btn-pagina:hover {
-    background-color: #3a8f40;
-    transform: scale(1.05);
+    background-color: #19cff3;
+    transform: scale(1.07);
+    box-shadow: 0px 6px 14px rgba(0, 0, 0, 0.6);
 }
